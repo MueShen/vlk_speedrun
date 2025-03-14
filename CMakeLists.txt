@@ -2,7 +2,9 @@ cmake_minimum_required(VERSION 3.2)
 project(speedrun)
 
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY '${PROJECT_SOURCE_DIR}/bin')
+
+
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin/)
 file(GLOB_RECURSE SOURCES "src/*.cpp")
 file(GLOB_RECURSE HEADERS "src/include/*.hpp" "src/include/*.h")
 

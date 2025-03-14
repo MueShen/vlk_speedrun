@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "'/home/mushen/Code/vlk_speedrun/bin'/core"
-  "'/home/mushen/Code/vlk_speedrun/bin'/core.pdb"
+  "/home/mushen/Code/vlk_speedrun/bin/core"
+  "/home/mushen/Code/vlk_speedrun/bin/core.pdb"
   "CMakeFiles/core.dir/src/main.cpp.o"
   "CMakeFiles/core.dir/src/main.cpp.o.d"
 )
