@@ -512,14 +512,7 @@ private:
     }
 
     void createGraphicsPipeline() {
-	    auto vertShaderCode= readFile("/home/mushen/Code/vlk_speedrun/src/shaders/vert.spv");
-	try{
-		auto vertShaderCode = readFile("shaders/vert.spv");
-	}
-	catch(const std::exception& e){
-		std::cerr<<e.what();
-		abort();
-	};
+        auto vertShaderCode = readFile("shaders/vert.spv");
         auto fragShaderCode = readFile("shaders/frag.spv");
 
         VkShaderModule vertShaderModule = createShaderModule(vertShaderCode);
