@@ -1,3 +1,0 @@
-/home/mushen/Code/vlk_speedrun/build/CMakeFiles/core.dir
-/home/mushen/Code/vlk_speedrun/build/CMakeFiles/edit_cache.dir
-/home/mushen/Code/vlk_speedrun/build/CMakeFiles/rebuild_cache.dir
